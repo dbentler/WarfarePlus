@@ -3,7 +3,7 @@ A mod for Paradox Interactive's Victoria 3 - with the aim of making the (as of 1
 
 You can download the mod and play with it from the [Steam workshop here!](https://steamcommunity.com/sharedfiles/filedetails/?id=2902726598).
 
-As for actual tweaks and adjustments:
+# As for actual tweaks and adjustments:
 
 ### Battles & Fronts:
 - Minimized the buffs that Attacking and Defending units received when the opposing side had superior combat stats.
