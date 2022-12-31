@@ -52,7 +52,7 @@ front_battle_province_weight = {
 		limit = {
 			state = { is_capital = yes }
 		}
-		multiply = 10
+		multiply = 14
 	}	
 	
 	# Increase weight for provinces in states that contain wargoals, or are adjacent to states that contain wargoals
@@ -61,7 +61,7 @@ front_battle_province_weight = {
 			exists = scope:own_commander
 			state = { is_target_of_wargoal = scope:own_commander.owner }
 		}
-		multiply = 10
+		multiply = 14
 	}
 	else_if = {
 		limit = {
@@ -159,9 +159,9 @@ land_battle_size = {
                 max = {
                     add = "scope:front.average_offense(scope:enemy_country)"
                     divide = "scope:front.average_defense(root)"
-					multiply = 0.3
+					multiply = 0.1
 					add = 1
-					max = 3
+					max = 2
                 }
             }
         }
@@ -182,7 +182,7 @@ land_battle_size = {
                 max = {
                     add = "scope:front.average_defense(scope:enemy_country)"
                     divide = "scope:front.average_offense(root)"
-					multiply = 0.2
+					multiply = 0.1
 					add = 1
 					max = 2
                 }
